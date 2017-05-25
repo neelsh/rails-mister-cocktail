@@ -1,0 +1,45 @@
+@import "home";
+
+#header {
+  margin: 50px 0 25px 0;
+}
+#header2 {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.task-card {
+  font-size: 18px;
+  background-color: #fbfbf9 ;
+  padding: 5px;
+  margin: 20px 0;
+  color: #31aa9c ;
+  // display: center;
+  border: 1px solid #31aa9c ;
+  border-radius: 7px;
+  // text-align: center;
+  &-name {
+    font-weight: bold;
+  }
+  &-importance {
+    font-weight: lighter;
+  }
+  .btn-primary {
+    margin: 5px 0;
+  }
+}
+.btn-primary {
+  background-color: #31aa9c ;
+  border: none;
+  margin-top: 50px;
+  &:hover {
+    background-color: #31aa9c ;
+    opacity: 0.8;
+    border: none;
+  }
+}
+.new_task {
+  margin: 25px 0 0 0 ;
+}
+.form-task-item {
+  margin: 5px 0;
+}

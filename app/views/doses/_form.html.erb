@@ -1,0 +1,6 @@
+<!-- Create a form to capture doses for cocktails , @cocktail, @ingredients -->
+<%= simple_form_for [@cocktail, @dose], class: "form-inline form-task padded-top" do |f| %>
+  <%= f.association :ingredient %>
+  <%= f.input :description, class: 'form-control form-task-item' %>
+  <%= f.submit "Submit", class: 'btn btn-success' %>
+<% end %>
