@@ -9,6 +9,9 @@
   padding-top: 5em;
   padding-bottom: 5em;
 }
+.wrapper {
+  height: 100vh;
+}
 
 // Backgrounds
 .bg-black {
@@ -39,4 +42,23 @@ body {
 }
 .padded-bottom {
   margin-bottom: 50px;
+}
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.card-category {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.create {
+  padding-top: 35px;
+}
+.row {
+  margin-bottom: 10px;
 }
